@@ -3,7 +3,7 @@ import heapq
 
 class Maze:
     def __init__(self, width, height):
-        self.width = width
+        self.width = width //first edit
         self.height = height
         self.grid = [[0 for _ in range(width)] for _ in range(height)]
 
